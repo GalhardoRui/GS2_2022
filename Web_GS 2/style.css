@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
+:root{
+    --bg-df-primary: black;
+    --bg-primary: #2d2d2d;
+    --defaut: #FFF;
+    --font-primary:'Roboto', sans-serif;
+    --font-header:'Bebas Neue', cursive;
+    --font-hero:'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a{
+    color:#FFF;
+    text-decoration: none;
+}
+.titulo{
+    color: var(--bg-df-primary);
+    text-decoration: none;
+}
+#titulo{
+    color: var(--destak); 
+    font-family: var(--font-primary);
+    font-size: 3rem;
+ }
+ body{
+    background-image: url("https://wallpapercave.com/wp/wp1896530.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ 
+    }
+ header{
+     display: flex;
+     flex: 1;
+     align-items: center;
+     position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+
+background: #D9D9D9;
+ }
+
+nav{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav li{
+    list-style: none;
+    margin: 0.1rem;
+}
+.menu{
+    color:black;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+}
+
+.introducao{
+    font-family: var(--font-hero);
+    height: 20rem;
+    position: relative;
+
+}
+
+.paragrafo1{
+    position: absolute;
+    width: 397px;
+    height: 72px;
+    left: 42px;
+    top: 95px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: black;
+ }
+
+ .paragrafo2{
+    position: absolute;
+    width: 319px;
+    height: 72px;
+    left: 913px;
+    top: 95px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: black;
+ }
+ .secao-noticias{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 140px;
+    background-color:#D9D9D9;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 5px;
+}
+.blog img{
+width: 140px;
+height: 140px;
+border-radius: .4em;
+}
+
+.botao{
+    background-color: black;
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    margin: .5rem 1rem;
+    transition: box-shadow .5s ease-out;
+}
+.botao:hover{
+    box-shadow: 0 0 10px rgb(202, 200, 200);
+
+}
